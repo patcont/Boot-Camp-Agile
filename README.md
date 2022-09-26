@@ -62,10 +62,20 @@ Kraken API Testing Environment: https://support.kraken.com/hc/en-us/articles/360
   
   
 # Kraken Python Bot:
+Python script that utilized kraken API that allows to make trades using your kraken account without login into it using your kraken api key.
   
   
 ## How To Run:
+py bot.py
   
 ### Install dependencies:
+-time
+-requests
+-urllib.parse
+-hashlib
+-hmac
+-base64
+-tqdm.auto
+-os
   
 
